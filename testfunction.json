@@ -1,4 +1,4 @@
-Content-Type: text/html; charset=UTF-8
+Content-Type: application/json; charset=UTF-8
 Content-Type: multipart/form-data; boundary=something
 {
 	"actions": [

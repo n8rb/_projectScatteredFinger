@@ -1,0 +1,25 @@
+{
+	"actions": [
+		{
+			"say": "Cool... statistically I would have picked a winner like Boston but to each their own"
+		},
+		{
+			"collect": {
+				"name": "collect_first_challenge",
+				"questions": [
+					{
+						"question": "Will Michigan State (-1.5) rebound tonight in their CBB game against Illinois?",
+						"name": "first_challenge",
+						"type": "Twilio.YES_NO"
+					}
+				],
+				"on_complete": {
+					"redirect": {
+						"method": "POST",
+						"uri": "task://goodbye"
+					}
+				}
+			}
+		}
+	]
+}
